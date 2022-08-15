@@ -10,17 +10,17 @@
 #include <a_samp>
 #include <discord-connector>
 main() {}
-new kos;
+new ok;
 
 public OnPlayerConnect(playerid)
 {
-    kos++;
+    ok++;
 	return 1;
 }
 
 public OnPlayerDisconnect(playerid)
 {
-    kos--;
+    ok--;
 	return 1;
 }
 
@@ -34,7 +34,7 @@ forward DiscordBotSetPlayer(playerid);
 public DiscordBotSetPlayer(playerid)
 {
 	new koshad[256];
-    format(koshad,sizeof(koshad), "%d/%d Players", kos, GetMaxPlayers());
+    format(koshad,sizeof(koshad), "%d/%d Players", ok, GetMaxPlayers());
     DCC_SetBotActivity(koshad);
     DCC_SetBotPresenceStatus(DCC_BotPresenceStatus:3);
     return 1;
