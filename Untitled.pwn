@@ -1,11 +1,5 @@
 /*
-|                                                           |
-|-----------------------------------------------------------|
-|                MAKED BY XITEZ                             |
-|     TELEGRAM : @XITEZReal - DISCORD : Arvin#3108          |
-|     Email : Imxitez@gmail.com - Github : XiteZReal        |
-|-----------------------------------------------------------|
-|                                                           |
+|  Telegram : XiteZReal | Github : XiteZReal
 */     
 main() {}
 #include <a_samp>
