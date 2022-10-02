@@ -1,11 +1,5 @@
 /*
-|                                                           |
-|-----------------------------------------------------------|
-|                MAKED BY XITEZ                             |
-|     TELEGRAM : @XITEZReal - DISCORD : Arvin#3108          |
-|     Email : Imxitez@gmail.com - Github : XiteZReal        |
-|-----------------------------------------------------------|
-|                                                           |
+| Telegram : @XiteZReal - Github : XiteZReal
 */     
 main() {}
 #include <a_samp>
@@ -19,7 +13,6 @@ public DiscordBotSetPlayer(playerid) {
     new koshad[256];
     format(koshad,sizeof(koshad), "%d/%d Players", GetPlayers(), GetMaxPlayers());
     DCC_SetBotActivity(koshad);
-    DCC_SetBotPresenceStatus(DCC_BotPresenceStatus:3);
     return 1;
 }
 stock GetPlayers() {
